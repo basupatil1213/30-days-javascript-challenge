@@ -1,0 +1,13 @@
+{
+  "name": "30-days-javascript-challenge",
+  "version": "1.0.0",
+  "description": "Learn JavaScript in 30 Days",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Basavaraj Patil",
+  "license": "ISC"
+}
