@@ -5,3 +5,5 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 # What You'll Learn
 
 ## Day 1: Variables and Data Types
+
+## day2: Operators
