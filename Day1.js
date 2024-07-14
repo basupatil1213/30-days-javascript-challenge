@@ -1,5 +1,5 @@
+// Day1: Variables and Data Types
 export const day1_learning = () => {
-    // Day1: Variables and Data Types
 
     //Activity 1: Variable declaration
 
@@ -58,6 +58,8 @@ export const day1_learning = () => {
     // Task 6: Try reassigning a variable declared with const  and observe the error.
 
     const place = "India";
+
+    console.log(place);
 
     try {
         place = "America";
