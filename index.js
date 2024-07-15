@@ -14,7 +14,7 @@ console.log(`\n\n${formatter} Day2: Operators ${formatter}\n\n`);
 day2_learning();
 
 // Daye3: Control Structures
-console.log(`\n\n${formatter} Daye3: Control Structures ${formatter}\n\n`);
+console.log(`\n\n${formatter} Day3: Control Structures ${formatter}\n\n`);
 day3_learning();
 
 // Daye4: Loops
