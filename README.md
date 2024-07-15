@@ -6,4 +6,6 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 
 ## Day 1: Variables and Data Types
 
-## day2: Operators
+## Day2: Operators
+
+## Day3: Control Structures
