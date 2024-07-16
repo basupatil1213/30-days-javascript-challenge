@@ -1,6 +1,7 @@
 import { day1_learning } from "./Day1.js";
 import { day2_learning } from "./Day2.js";
 import { day3_learning } from "./Day3.js";
+import { day4_learning } from "./Day4.js";
 
 export const formatter = "*".repeat(5) + " " + "-".repeat(10) + " " + "*".repeat(5);
 
@@ -15,3 +16,7 @@ day2_learning();
 // Daye3: Control Structures
 console.log(`\n\n${formatter} Daye3: Control Structures ${formatter}\n\n`);
 day3_learning();
+
+// Daye4: Loops
+console.log(`\n\n${formatter} Day4: Loops ${formatter}\n\n`);
+day4_learning();
