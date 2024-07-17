@@ -10,21 +10,21 @@ export const construct_log = (log_msg) => {
 export const formatter = "*".repeat(5) + " " + "-".repeat(10) + " " + "*".repeat(5);
 
 // Day1: Variables and Data Types
-console.log(`\n\n${formatter} Day1: Variables and Data Types ${formatter}\n\n`);
+construct_log('Day1: Variables and Data Types');
 day1_learning();
 
 // Day2: Operators
-console.log(`\n\n${formatter} Day2: Operators ${formatter}\n\n`);
+construct_log(`Day2: Operators`);
 day2_learning();
 
 // Day3: Control Structures
-console.log(`\n\n${formatter} Day3: Control Structures ${formatter}\n\n`);
+construct_log(`Day3: Control Structures`);
 day3_learning();
 
 // Daye4: Loops
-console.log(`\n\n${formatter} Day4: Loops ${formatter}\n\n`);
+construct_log(`Day4: Loops`);
 day4_learning();
 
 //Day5: Functions
-console.log(`\n\n${formatter} Day4: Loops ${formatter}\n\n`);
+construct_log(`Day5: Functions`);
 day5_learning();
