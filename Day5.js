@@ -1,6 +1,6 @@
-import { construct_log } from ".";
+import { construct_log } from "./index.js";
 // Day 5: Functions
-const day5_learning = () => {
+export const day5_learning = () => {
 
     // Tasks/Activities:
 
@@ -118,12 +118,12 @@ const day5_learning = () => {
         return final_res;
     }
 
-    const fn1 = (num) => x*2;
+    const fn1 = (num) => num*2;
     const fn2 =(num) => num ** 2;
 
     construct_log('Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.');
 
-    let higher_fn_res = apply_fn(fn1, fn2);
+    let higher_fn_res = apply_fn(fn1, fn2,4);
     console.log(`result after applying two functions : ${higher_fn_res}`);
 
 }
