@@ -11,3 +11,5 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 ## Day3: Control Structures
 
 ## Day4: Loops
+
+## Day5: Functions
