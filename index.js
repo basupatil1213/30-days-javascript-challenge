@@ -3,6 +3,7 @@ import { day2_learning } from "./Day2.js";
 import { day3_learning } from "./Day3.js";
 import { day4_learning } from "./Day4.js";
 import { day5_learning } from "./Day5.js";
+import { day6_learning } from "./Day6.js";
 
 export const construct_log = (log_msg) => {
     console.log(`\n\n${formatter} ${log_msg} ${formatter}\n\n`);
@@ -28,3 +29,8 @@ day4_learning();
 //Day5: Functions
 construct_log(`Day5: Functions`);
 day5_learning();
+
+
+//Day6: Arrays
+construct_log('Day6: Arrays');
+day6_learning();
