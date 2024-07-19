@@ -15,3 +15,5 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 ## Day5: Functions
 
 ## Day6: Arrays
+
+## Day7: Objects
