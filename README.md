@@ -17,3 +17,5 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 ## Day6: Arrays
 
 ## Day7: Objects
+
+## Day8: ES6+ Features
