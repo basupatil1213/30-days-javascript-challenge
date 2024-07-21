@@ -44,3 +44,6 @@ day7_learning();
 //Day8: ES6+ Features
 construct_log('Day8: ES6+ Features');
 day8_learning();
+
+//Day9: DOM Manipulation
+construct_log("Day9: DOM Manipulation");

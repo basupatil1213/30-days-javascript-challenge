@@ -19,3 +19,5 @@ Welcome to the 30 Days JavaScript Challenge! This repository is designed to help
 ## Day7: Objects
 
 ## Day8: ES6+ Features
+
+## Day9: DOM Manipulation
