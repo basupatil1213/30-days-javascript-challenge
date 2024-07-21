@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day9 Challenge</title>
+    <style>
+      * {
+        margin: 2% 2%;
+        padding: 0%;
+      }
+      .bg-change-cls {
+        background-color: #f0f0f0; /* Default color */
+        padding: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .bg-change-cls.red-bg {
+        background-color: #ff6347; /* Tomato color */
+      }
+
+      .bg-change-cls.blue-bg {
+        background-color: #1e90ff; /* Dodger blue color */
+      }
+
+      .task {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        border-bottom: 1px dotted black;
+      }
+
+      .task-item {
+        height: fit-content;
+        padding: 10px;
+        width: fit-content;
+        border: 1px solid black;
+      }
+      .task-description {
+        border: 1px solid rgb(37, 31, 31);
+        background: #1d1d1b;
+        color: #0fea9e;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .bg-black{
+        background-color: #000000;
+      }
+
+      .bg-red{
+        background-color: #e60a0a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 1: Select an HTML element by its ID and change its text content.
+      </p>
+      <p class="task-item" id="change-text">
+        Hello, I am begineer in JavaScript
+      </p>
+      <button class="task-item" onclick="handle_text_change()">
+        Execute Task 1
+      </button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task2: Select an HTML element by its class and change its background
+        color.
+      </p>
+      <p class="bg-change-cls task-item">
+        Changing it's background color from red to blue
+      </p>
+      <p class="bg-change-cls task-item">
+        Changing it's background color from red to blue
+      </p>
+      <p class="bg-change-cls task-item">
+        Changing it's background color from red to blue
+      </p>
+      <p class="bg-change-cls task-item">
+        Changing it's background color from red to blue
+      </p>
+      <p class="bg-change-cls task-item">
+        Changing it's background color from red to blue
+      </p>
+      <button class="task-item" onclick="change_bg_color()">
+        Task2: Change Background Color
+      </button>
+    </div>
+
+    <div class="task" id="task-3">
+      <p class="task-item task-description">
+        Task3: Create a new div element with some text content and append it to
+        the body.
+      </p>
+
+      <button class="task-item" onclick="add_new_element()">
+        Task3: Add new Div Element
+      </button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 4: Create a new li element and add it to an existing ul list.
+      </p>
+      <ul class="task-item" id="task-4">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+      <button class="task-item" onclick="add_li_element()">Task4: add new li element</button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task5: Select an HTML element and remove it from the DOM.
+      </p>
+      <p id="remove-element">
+        This Element will be removed on click next button
+      </p>
+      <button class="task-item" onclick="delete_element()">Delete Element</button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 6: Remove the last child of a specific HTML element.
+      </p>
+      <ul class="ul-element task-item" id="parent-ul">
+        <li class="li-element">1</li>
+        <li class="li-element">2</li>
+        <li class="li-element">3</li>
+        <li class="li-element">4</li>
+        <li class="li-element">5</li>
+      </ul>
+      <button class="task-item" onclick="remove_last_child()">Delete last child</button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 7: Select an HTML element and change one of its attributes (e.g., src of an img tag).
+      </p>
+      <img src="https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg" style="height: 100px !important; width: 100px !important;" class="task-item" id="js-img"/>
+      <button class="task-item" onclick="change_image_src()">
+        Change Image
+      </button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 8: Add and remove a CSS class to/from an HTML element.
+      </p>
+      <p class="bg-black task-item" id="change_cls">Haha I am visible now</p>
+      <button class="task-item" onclick="add_remove_bg()">remove & add bg color of previous element</button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 9: Add a click event listener to a button that changes the text content of a paragraph.
+      </p>
+      <button class="task-item" onclick="increment_count(event)">
+        0
+      </button>
+    </div>
+    <div class="task">
+      <p class="task-item task-description">
+        Task 10: Add a mouseover event listener to an element that changes its border color.
+      </p>
+      <div class="task-item" style="border: 4px solid red;" onmouseover="change_border_color(event)" onmouseleave="change_border_color(event)">
+        Change it's border color on mouseover
+      </div>
+    </div>
+
+    <script src="./Day9.js"></script>
+  </body>
+</html>
