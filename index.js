@@ -1,4 +1,5 @@
 import { day1_learning } from "./Day1.js";
+import { day11_learning } from "./Day11 Challenge/Day11.js";
 import { day2_learning } from "./Day2.js";
 import { day3_learning } from "./Day3.js";
 import { day4_learning } from "./Day4.js";
@@ -47,3 +48,7 @@ day8_learning();
 
 //Day9: DOM Manipulation
 construct_log("Day9: DOM Manipulation");
+
+//Day11:  Promises and Async/Await
+construct_log("Day11: Promises and Async/Await");
+day11_learning();
